@@ -963,7 +963,7 @@ def next_move():# 評価関数の値が最大のものを次の一手として�
 
 # 2048のページを開く
 #browser = webdriver.Firefox()
-browser = webdriver.Firefox(executable_path="/Users/masa/geckodriver/geckodriver")# geckodriverのpathを書く
+browser = webdriver.Firefox(executable_path="/Users/hoge/geckodriver/geckodriver")# geckodriverのpathを書く
 browser.get('https://gabrielecirulli.github.io/2048/')
 
 # ゲーム開始の準備
